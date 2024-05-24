@@ -1,0 +1,16 @@
+{
+  "name": "npm-project",
+  "version": "1.0.0",
+  "description": "Sample node Project for learning writting APIs",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "base-server":"node --watch basic-server.js  "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http": "^0.0.1-security"
+  }
+}
